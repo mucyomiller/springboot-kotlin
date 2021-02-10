@@ -10,7 +10,7 @@ enum class RideStatus {
 }
 
 @Document
-data class CabRide(
+data class Ride(
     @Id() var id: String? = null,
     var shiftId: String? = null,
     var rideStartTime: LocalDateTime? = null,
